@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sM4I1ij1O3w=",
+  "dgSpecHash": "h+oLBtvAhI0=",
   "success": true,
-  "projectFilePath": "E:\\home\\NetCore\\LearnSerilog\\LearnSerilog.Console\\LearnSerilog.Console.csproj",
+  "projectFilePath": "E:\\home\\NetCore\\LearnNetCoreCollection\\Samples\\LearnSerilog\\LearnSerilog.Console\\LearnSerilog.Console.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chang\\.nuget\\packages\\serilog\\4.2.0\\serilog.4.2.0.nupkg.sha512",
     "C:\\Users\\chang\\.nuget\\packages\\serilog.sinks.console\\6.0.0\\serilog.sinks.console.6.0.0.nupkg.sha512",

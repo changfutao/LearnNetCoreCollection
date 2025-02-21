@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnSerilog.Console", "LearnSerilog.Console\LearnSerilog.Console.csproj", "{306F7C60-576D-4E2A-99F1-BA77E12A949A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnSerilog.WebApi", "LearnSerilog.WebApi\LearnSerilog.WebApi.csproj", "{5530B387-F932-4155-89BE-98F20F9C1021}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{306F7C60-576D-4E2A-99F1-BA77E12A949A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{306F7C60-576D-4E2A-99F1-BA77E12A949A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{306F7C60-576D-4E2A-99F1-BA77E12A949A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5530B387-F932-4155-89BE-98F20F9C1021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5530B387-F932-4155-89BE-98F20F9C1021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5530B387-F932-4155-89BE-98F20F9C1021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5530B387-F932-4155-89BE-98F20F9C1021}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

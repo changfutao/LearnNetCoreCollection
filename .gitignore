@@ -1,0 +1,34 @@
+# 编译产物 
+[Bb]in/
+[Oo]bj/
+**/bin/
+**/obj/
+*.dll 
+*.pdb 
+*.exe
+ 
+# IDE/编辑器配置 
+.vs/
+.vscode/
+*.user 
+*.suo
+*.swp
+**/.vs/
+ 
+# 依赖管理 
+.nuget/
+packages/
+**/node_modules/
+ 
+# 用户机密文件 
+appsettings.Development.json  
+secrets.json  
+ 
+# 日志与临时文件 
+logs/
+*.log 
+*.tmp 
+ 
+# 测试覆盖率报告 
+coverage/
+*.coverage 

@@ -4,3 +4,42 @@
 2025-02-21 14:10:51.219 +08:00 [INF] Hello Serilog
 2025-02-21 14:10:51.440 +08:00 [INF] Processed{ Latitude = 25, Longitude = 134 } in 35 ms
 2025-02-21 14:10:51.445 +08:00 [INF] Processed{"Latitude":25,"Longitude":134} in 35 ms
+2025-02-21 14:26:42.329 +08:00 [INF] Hello Serilog
+2025-02-21 14:26:42.384 +08:00 [INF] Retrieved 456 records
+2025-02-21 14:26:42.439 +08:00 [INF] Processed{ Latitude = 25, Longitude = 134 } in 35 ms
+2025-02-21 14:26:42.442 +08:00 [INF] Processed{"Latitude":25,"Longitude":134} in 35 ms
+2025-02-21 14:28:44.960 +08:00 [INF] Hello Serilog
+2025-02-21 14:28:45.010 +08:00 [INF] Retrieved 456 records
+2025-02-21 14:28:45.015 +08:00 [INF] I am a good boy is true
+2025-02-21 14:28:45.064 +08:00 [INF] Processed{ Latitude = 25, Longitude = 134 } in 35 ms
+2025-02-21 14:28:45.069 +08:00 [INF] Processed{"Latitude":25,"Longitude":134} in 35 ms
+2025-02-21 14:29:14.530 +08:00 [INF] Hello Serilog
+2025-02-21 14:29:14.581 +08:00 [INF] Retrieved 456 records
+2025-02-21 14:29:14.586 +08:00 [INF] I am a good boy is true
+2025-02-21 14:29:14.588 +08:00 [INF] In my bowl I have ["Apple","Pear","Orange"]
+2025-02-21 14:29:14.651 +08:00 [INF] Processed{ Latitude = 25, Longitude = 134 } in 35 ms
+2025-02-21 14:29:14.653 +08:00 [INF] Processed{"Latitude":25,"Longitude":134} in 35 ms
+2025-02-21 14:29:46.870 +08:00 [INF] Hello Serilog
+2025-02-21 14:29:46.919 +08:00 [INF] Retrieved 456 records
+2025-02-21 14:29:46.925 +08:00 [INF] I am a good boy is true
+2025-02-21 14:29:46.927 +08:00 [INF] In my bowl I have System.String[]
+2025-02-21 14:29:46.974 +08:00 [INF] Processed{ Latitude = 25, Longitude = 134 } in 35 ms
+2025-02-21 14:29:46.977 +08:00 [INF] Processed{"Latitude":25,"Longitude":134} in 35 ms
+2025-02-21 14:30:47.930 +08:00 [INF] Hello Serilog
+2025-02-21 14:30:47.982 +08:00 [INF] Retrieved 456 records
+2025-02-21 14:30:47.988 +08:00 [INF] I am a good boy is true
+2025-02-21 14:30:47.990 +08:00 [INF] In my bowl I have ["Apple","Pear","Orange"]
+2025-02-21 14:30:47.995 +08:00 [INF] In my bowl I have {"Apple":1,"Pear":5}
+2025-02-21 14:30:48.048 +08:00 [INF] Processed{ Latitude = 25, Longitude = 134 } in 35 ms
+2025-02-21 14:30:48.051 +08:00 [INF] Processed{"Latitude":25,"Longitude":134} in 35 ms
+2025-02-21 15:05:11.171 +08:00 [INF] Hello Serilog
+2025-02-21 15:05:11.239 +08:00 [INF] Retrieved 456 records
+2025-02-21 15:05:11.244 +08:00 [INF] I am a good boy is true
+2025-02-21 15:05:11.245 +08:00 [INF] In my bowl I have ["Apple","Pear","Orange"]
+2025-02-21 15:05:11.250 +08:00 [INF] In my bowl I have {"Apple":1,"Pear":5}
+2025-02-21 15:05:11.255 +08:00 [INF] No contextual properties
+2025-02-21 15:05:11.257 +08:00 [INF] Carries property A = 1
+2025-02-21 15:05:11.258 +08:00 [INF] Carries A = 2 and B = 1
+2025-02-21 15:05:11.259 +08:00 [INF] Carries property A = 1, again
+2025-02-21 15:05:11.310 +08:00 [INF] Processed{ Latitude = 25, Longitude = 134 } in 35 ms
+2025-02-21 15:05:11.312 +08:00 [INF] Processed{"Latitude":25,"Longitude":134} in 35 ms
