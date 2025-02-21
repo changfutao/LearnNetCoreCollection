@@ -1,0 +1,6 @@
+2025-02-21 14:08:05.313 +08:00 [INF] Hello Serilog
+2025-02-21 14:08:05.568 +08:00 [INF] Processed{ Latitude = 25, Longitude = 134 } in 35 ms
+2025-02-21 14:08:05.598 +08:00 [INF] Processed{"Latitude":25,"Longitude":134} in 35 ms
+2025-02-21 14:10:51.219 +08:00 [INF] Hello Serilog
+2025-02-21 14:10:51.440 +08:00 [INF] Processed{ Latitude = 25, Longitude = 134 } in 35 ms
+2025-02-21 14:10:51.445 +08:00 [INF] Processed{"Latitude":25,"Longitude":134} in 35 ms
