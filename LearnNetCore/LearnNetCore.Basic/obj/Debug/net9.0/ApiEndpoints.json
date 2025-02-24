@@ -1,6 +1,46 @@
 [
   {
     "ContainingType": "LearnNetCore.Basic.Controllers.HomeController",
+    "Method": "GetMultiScoped",
+    "RelativePath": "api/Home/GetMultiScoped",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LearnNetCore.Basic.Controllers.HomeController",
+    "Method": "GetMultiTransient",
+    "RelativePath": "api/Home/GetMultiTransient",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LearnNetCore.Basic.Controllers.HomeController",
     "Method": "GetPosition",
     "RelativePath": "api/Home/GetPosition",
     "HttpMethod": "GET",

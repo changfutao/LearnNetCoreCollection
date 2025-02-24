@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\home\\NetCore\\LearnNetCore\\LearnNetCore.Basic\\LearnNetCore.Basic.csproj": {}
+    "E:\\home\\NetCore\\LearnNetCoreCollection\\LearnNetCore\\LearnNetCore.Basic\\LearnNetCore.Basic.csproj": {}
   },
   "projects": {
-    "E:\\home\\NetCore\\LearnNetCore\\LearnNetCore.Basic\\LearnNetCore.Basic.csproj": {
+    "E:\\home\\NetCore\\LearnNetCoreCollection\\LearnNetCore\\LearnNetCore.Basic\\LearnNetCore.Basic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\home\\NetCore\\LearnNetCore\\LearnNetCore.Basic\\LearnNetCore.Basic.csproj",
+        "projectUniqueName": "E:\\home\\NetCore\\LearnNetCoreCollection\\LearnNetCore\\LearnNetCore.Basic\\LearnNetCore.Basic.csproj",
         "projectName": "LearnNetCore.Basic",
-        "projectPath": "E:\\home\\NetCore\\LearnNetCore\\LearnNetCore.Basic\\LearnNetCore.Basic.csproj",
+        "projectPath": "E:\\home\\NetCore\\LearnNetCoreCollection\\LearnNetCore\\LearnNetCore.Basic\\LearnNetCore.Basic.csproj",
         "packagesPath": "C:\\Users\\chang\\.nuget\\packages\\",
-        "outputPath": "E:\\home\\NetCore\\LearnNetCore\\LearnNetCore.Basic\\obj\\",
+        "outputPath": "E:\\home\\NetCore\\LearnNetCoreCollection\\LearnNetCore\\LearnNetCore.Basic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

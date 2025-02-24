@@ -1,42 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\home\\NetCore\\LearnNetCore\\",
+  "WorkspaceRootPath": "E:\\home\\NetCore\\LearnNetCoreCollection\\LearnNetCore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C4306745-4D49-40AB-AF1C-FE9BE611C20B}|LearnNetCore.Basic\\LearnNetCore.Basic.csproj|e:\\home\\netcore\\learnnetcore\\learnnetcore.basic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C4306745-4D49-40AB-AF1C-FE9BE611C20B}|LearnNetCore.Basic\\LearnNetCore.Basic.csproj|e:\\home\\netcore\\learnnetcorecollection\\learnnetcore\\learnnetcore.basic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4306745-4D49-40AB-AF1C-FE9BE611C20B}|LearnNetCore.Basic\\LearnNetCore.Basic.csproj|solutionrelative:learnnetcore.basic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4306745-4D49-40AB-AF1C-FE9BE611C20B}|LearnNetCore.Basic\\LearnNetCore.Basic.csproj|e:\\home\\netcore\\learnnetcore\\learnnetcore.basic\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C4306745-4D49-40AB-AF1C-FE9BE611C20B}|LearnNetCore.Basic\\LearnNetCore.Basic.csproj|solutionrelative:learnnetcore.basic\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{C4306745-4D49-40AB-AF1C-FE9BE611C20B}|LearnNetCore.Basic\\LearnNetCore.Basic.csproj|e:\\home\\netcore\\learnnetcorecollection\\learnnetcore\\learnnetcore.basic\\middlewares\\requestipmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4306745-4D49-40AB-AF1C-FE9BE611C20B}|LearnNetCore.Basic\\LearnNetCore.Basic.csproj|solutionrelative:learnnetcore.basic\\middlewares\\requestipmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4306745-4D49-40AB-AF1C-FE9BE611C20B}|LearnNetCore.Basic\\LearnNetCore.Basic.csproj|e:\\home\\netcore\\learnnetcore\\learnnetcore.basic\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4306745-4D49-40AB-AF1C-FE9BE611C20B}|LearnNetCore.Basic\\LearnNetCore.Basic.csproj|solutionrelative:learnnetcore.basic\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4306745-4D49-40AB-AF1C-FE9BE611C20B}|LearnNetCore.Basic\\LearnNetCore.Basic.csproj|e:\\home\\netcore\\learnnetcore\\learnnetcore.basic\\dtos\\mydependency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4306745-4D49-40AB-AF1C-FE9BE611C20B}|LearnNetCore.Basic\\LearnNetCore.Basic.csproj|solutionrelative:learnnetcore.basic\\dtos\\mydependency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4306745-4D49-40AB-AF1C-FE9BE611C20B}|LearnNetCore.Basic\\LearnNetCore.Basic.csproj|e:\\home\\netcore\\learnnetcore\\learnnetcore.basic\\extensions\\mydependencyinjectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4306745-4D49-40AB-AF1C-FE9BE611C20B}|LearnNetCore.Basic\\LearnNetCore.Basic.csproj|solutionrelative:learnnetcore.basic\\extensions\\mydependencyinjectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4306745-4D49-40AB-AF1C-FE9BE611C20B}|LearnNetCore.Basic\\LearnNetCore.Basic.csproj|e:\\home\\netcore\\learnnetcore\\learnnetcore.basic\\extensions\\optionsextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4306745-4D49-40AB-AF1C-FE9BE611C20B}|LearnNetCore.Basic\\LearnNetCore.Basic.csproj|solutionrelative:learnnetcore.basic\\extensions\\optionsextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4306745-4D49-40AB-AF1C-FE9BE611C20B}|LearnNetCore.Basic\\LearnNetCore.Basic.csproj|e:\\home\\netcore\\learnnetcore\\learnnetcore.basic\\middlewares\\requestsetoptionsmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4306745-4D49-40AB-AF1C-FE9BE611C20B}|LearnNetCore.Basic\\LearnNetCore.Basic.csproj|solutionrelative:learnnetcore.basic\\middlewares\\requestsetoptionsmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4306745-4D49-40AB-AF1C-FE9BE611C20B}|LearnNetCore.Basic\\LearnNetCore.Basic.csproj|e:\\home\\netcore\\learnnetcore\\learnnetcore.basic\\middlewares\\requestsetoptionsstartupfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C4306745-4D49-40AB-AF1C-FE9BE611C20B}|LearnNetCore.Basic\\LearnNetCore.Basic.csproj|e:\\home\\netcore\\learnnetcorecollection\\learnnetcore\\learnnetcore.basic\\middlewares\\requestsetoptionsstartupfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4306745-4D49-40AB-AF1C-FE9BE611C20B}|LearnNetCore.Basic\\LearnNetCore.Basic.csproj|solutionrelative:learnnetcore.basic\\middlewares\\requestsetoptionsstartupfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4306745-4D49-40AB-AF1C-FE9BE611C20B}|LearnNetCore.Basic\\LearnNetCore.Basic.csproj|e:\\home\\netcore\\learnnetcore\\learnnetcore.basic\\options\\myposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C4306745-4D49-40AB-AF1C-FE9BE611C20B}|LearnNetCore.Basic\\LearnNetCore.Basic.csproj|e:\\home\\netcore\\learnnetcorecollection\\learnnetcore\\learnnetcore.basic\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C4306745-4D49-40AB-AF1C-FE9BE611C20B}|LearnNetCore.Basic\\LearnNetCore.Basic.csproj|solutionrelative:learnnetcore.basic\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4306745-4D49-40AB-AF1C-FE9BE611C20B}|LearnNetCore.Basic\\LearnNetCore.Basic.csproj|e:\\home\\netcore\\learnnetcorecollection\\learnnetcore\\learnnetcore.basic\\options\\myposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4306745-4D49-40AB-AF1C-FE9BE611C20B}|LearnNetCore.Basic\\LearnNetCore.Basic.csproj|solutionrelative:learnnetcore.basic\\options\\myposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4306745-4D49-40AB-AF1C-FE9BE611C20B}|LearnNetCore.Basic\\LearnNetCore.Basic.csproj|e:\\home\\netcore\\learnnetcorecollection\\learnnetcore\\learnnetcore.basic\\middlewares\\requestsetoptionsmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4306745-4D49-40AB-AF1C-FE9BE611C20B}|LearnNetCore.Basic\\LearnNetCore.Basic.csproj|solutionrelative:learnnetcore.basic\\middlewares\\requestsetoptionsmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4306745-4D49-40AB-AF1C-FE9BE611C20B}|LearnNetCore.Basic\\LearnNetCore.Basic.csproj|e:\\home\\netcore\\learnnetcorecollection\\learnnetcore\\learnnetcore.basic\\dtos\\mydependency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4306745-4D49-40AB-AF1C-FE9BE611C20B}|LearnNetCore.Basic\\LearnNetCore.Basic.csproj|solutionrelative:learnnetcore.basic\\dtos\\mydependency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4306745-4D49-40AB-AF1C-FE9BE611C20B}|LearnNetCore.Basic\\LearnNetCore.Basic.csproj|e:\\home\\netcore\\learnnetcorecollection\\learnnetcore\\learnnetcore.basic\\extensions\\mydependencyinjectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4306745-4D49-40AB-AF1C-FE9BE611C20B}|LearnNetCore.Basic\\LearnNetCore.Basic.csproj|solutionrelative:learnnetcore.basic\\extensions\\mydependencyinjectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4306745-4D49-40AB-AF1C-FE9BE611C20B}|LearnNetCore.Basic\\LearnNetCore.Basic.csproj|e:\\home\\netcore\\learnnetcorecollection\\learnnetcore\\learnnetcore.basic\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4306745-4D49-40AB-AF1C-FE9BE611C20B}|LearnNetCore.Basic\\LearnNetCore.Basic.csproj|solutionrelative:learnnetcore.basic\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4306745-4D49-40AB-AF1C-FE9BE611C20B}|LearnNetCore.Basic\\LearnNetCore.Basic.csproj|e:\\home\\netcore\\learnnetcorecollection\\learnnetcore\\learnnetcore.basic\\extensions\\optionsextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4306745-4D49-40AB-AF1C-FE9BE611C20B}|LearnNetCore.Basic\\LearnNetCore.Basic.csproj|solutionrelative:learnnetcore.basic\\extensions\\optionsextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,120 +50,137 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MyDependency.cs",
-              "DocumentMoniker": "E:\\home\\NetCore\\LearnNetCore\\LearnNetCore.Basic\\Dtos\\MyDependency.cs",
-              "RelativeDocumentMoniker": "LearnNetCore.Basic\\Dtos\\MyDependency.cs",
-              "ToolTip": "E:\\home\\NetCore\\LearnNetCore\\LearnNetCore.Basic\\Dtos\\MyDependency.cs",
-              "RelativeToolTip": "LearnNetCore.Basic\\Dtos\\MyDependency.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "RequestIpMiddleware.cs",
+              "DocumentMoniker": "E:\\home\\NetCore\\LearnNetCoreCollection\\LearnNetCore\\LearnNetCore.Basic\\Middlewares\\RequestIpMiddleware.cs",
+              "RelativeDocumentMoniker": "LearnNetCore.Basic\\Middlewares\\RequestIpMiddleware.cs",
+              "ToolTip": "E:\\home\\NetCore\\LearnNetCoreCollection\\LearnNetCore\\LearnNetCore.Basic\\Middlewares\\RequestIpMiddleware.cs",
+              "RelativeToolTip": "LearnNetCore.Basic\\Middlewares\\RequestIpMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T09:00:14.467Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RequestSetOptionsStartupFilter.cs",
-              "DocumentMoniker": "E:\\home\\NetCore\\LearnNetCore\\LearnNetCore.Basic\\Middlewares\\RequestSetOptionsStartupFilter.cs",
-              "RelativeDocumentMoniker": "LearnNetCore.Basic\\Middlewares\\RequestSetOptionsStartupFilter.cs",
-              "ToolTip": "E:\\home\\NetCore\\LearnNetCore\\LearnNetCore.Basic\\Middlewares\\RequestSetOptionsStartupFilter.cs",
-              "RelativeToolTip": "LearnNetCore.Basic\\Middlewares\\RequestSetOptionsStartupFilter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T08:47:36.167Z"
+              "WhenOpened": "2025-02-24T09:19:02.324Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "RequestSetOptionsMiddleware.cs",
-              "DocumentMoniker": "E:\\home\\NetCore\\LearnNetCore\\LearnNetCore.Basic\\Middlewares\\RequestSetOptionsMiddleware.cs",
-              "RelativeDocumentMoniker": "LearnNetCore.Basic\\Middlewares\\RequestSetOptionsMiddleware.cs",
-              "ToolTip": "E:\\home\\NetCore\\LearnNetCore\\LearnNetCore.Basic\\Middlewares\\RequestSetOptionsMiddleware.cs",
-              "RelativeToolTip": "LearnNetCore.Basic\\Middlewares\\RequestSetOptionsMiddleware.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Title": "MyDependency.cs",
+              "DocumentMoniker": "E:\\home\\NetCore\\LearnNetCoreCollection\\LearnNetCore\\LearnNetCore.Basic\\Dtos\\MyDependency.cs",
+              "RelativeDocumentMoniker": "LearnNetCore.Basic\\Dtos\\MyDependency.cs",
+              "ToolTip": "E:\\home\\NetCore\\LearnNetCoreCollection\\LearnNetCore\\LearnNetCore.Basic\\Dtos\\MyDependency.cs",
+              "RelativeToolTip": "LearnNetCore.Basic\\Dtos\\MyDependency.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T08:44:24.529Z"
+              "WhenOpened": "2025-02-20T09:00:14.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RequestSetOptionsStartupFilter.cs",
+              "DocumentMoniker": "E:\\home\\NetCore\\LearnNetCoreCollection\\LearnNetCore\\LearnNetCore.Basic\\Middlewares\\RequestSetOptionsStartupFilter.cs",
+              "RelativeDocumentMoniker": "LearnNetCore.Basic\\Middlewares\\RequestSetOptionsStartupFilter.cs",
+              "ToolTip": "E:\\home\\NetCore\\LearnNetCoreCollection\\LearnNetCore\\LearnNetCore.Basic\\Middlewares\\RequestSetOptionsStartupFilter.cs",
+              "RelativeToolTip": "LearnNetCore.Basic\\Middlewares\\RequestSetOptionsStartupFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T08:47:36.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RequestSetOptionsMiddleware.cs",
+              "DocumentMoniker": "E:\\home\\NetCore\\LearnNetCoreCollection\\LearnNetCore\\LearnNetCore.Basic\\Middlewares\\RequestSetOptionsMiddleware.cs",
+              "RelativeDocumentMoniker": "LearnNetCore.Basic\\Middlewares\\RequestSetOptionsMiddleware.cs",
+              "ToolTip": "E:\\home\\NetCore\\LearnNetCoreCollection\\LearnNetCore\\LearnNetCore.Basic\\Middlewares\\RequestSetOptionsMiddleware.cs",
+              "RelativeToolTip": "LearnNetCore.Basic\\Middlewares\\RequestSetOptionsMiddleware.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T08:44:24.529Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\home\\NetCore\\LearnNetCore\\LearnNetCore.Basic\\Program.cs",
+              "DocumentMoniker": "E:\\home\\NetCore\\LearnNetCoreCollection\\LearnNetCore\\LearnNetCore.Basic\\Program.cs",
               "RelativeDocumentMoniker": "LearnNetCore.Basic\\Program.cs",
-              "ToolTip": "E:\\home\\NetCore\\LearnNetCore\\LearnNetCore.Basic\\Program.cs",
+              "ToolTip": "E:\\home\\NetCore\\LearnNetCoreCollection\\LearnNetCore\\LearnNetCore.Basic\\Program.cs",
               "RelativeToolTip": "LearnNetCore.Basic\\Program.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAxwD0AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-12T02:48:30.931Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "OptionsExtension.cs",
-              "DocumentMoniker": "E:\\home\\NetCore\\LearnNetCore\\LearnNetCore.Basic\\Extensions\\OptionsExtension.cs",
+              "DocumentMoniker": "E:\\home\\NetCore\\LearnNetCoreCollection\\LearnNetCore\\LearnNetCore.Basic\\Extensions\\OptionsExtension.cs",
               "RelativeDocumentMoniker": "LearnNetCore.Basic\\Extensions\\OptionsExtension.cs",
-              "ToolTip": "E:\\home\\NetCore\\LearnNetCore\\LearnNetCore.Basic\\Extensions\\OptionsExtension.cs",
+              "ToolTip": "E:\\home\\NetCore\\LearnNetCoreCollection\\LearnNetCore\\LearnNetCore.Basic\\Extensions\\OptionsExtension.cs",
               "RelativeToolTip": "LearnNetCore.Basic\\Extensions\\OptionsExtension.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T03:06:07.27Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "E:\\home\\NetCore\\LearnNetCore\\LearnNetCore.Basic\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "LearnNetCore.Basic\\Controllers\\HomeController.cs",
-              "ToolTip": "E:\\home\\NetCore\\LearnNetCore\\LearnNetCore.Basic\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "LearnNetCore.Basic\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T02:53:51.487Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\home\\NetCore\\LearnNetCore\\LearnNetCore.Basic\\appsettings.json",
-              "RelativeDocumentMoniker": "LearnNetCore.Basic\\appsettings.json",
-              "ToolTip": "E:\\home\\NetCore\\LearnNetCore\\LearnNetCore.Basic\\appsettings.json",
-              "RelativeToolTip": "LearnNetCore.Basic\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-12T02:48:39.412Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MyDependencyInjectionExtensions.cs",
-              "DocumentMoniker": "E:\\home\\NetCore\\LearnNetCore\\LearnNetCore.Basic\\Extensions\\MyDependencyInjectionExtensions.cs",
-              "RelativeDocumentMoniker": "LearnNetCore.Basic\\Extensions\\MyDependencyInjectionExtensions.cs",
-              "ToolTip": "E:\\home\\NetCore\\LearnNetCore\\LearnNetCore.Basic\\Extensions\\MyDependencyInjectionExtensions.cs",
-              "RelativeToolTip": "LearnNetCore.Basic\\Extensions\\MyDependencyInjectionExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T09:11:36.418Z"
+              "WhenOpened": "2025-02-12T03:06:07.27Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\home\\NetCore\\LearnNetCoreCollection\\LearnNetCore\\LearnNetCore.Basic\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "LearnNetCore.Basic\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\home\\NetCore\\LearnNetCoreCollection\\LearnNetCore\\LearnNetCore.Basic\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "LearnNetCore.Basic\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwCgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T02:53:51.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\home\\NetCore\\LearnNetCoreCollection\\LearnNetCore\\LearnNetCore.Basic\\appsettings.json",
+              "RelativeDocumentMoniker": "LearnNetCore.Basic\\appsettings.json",
+              "ToolTip": "E:\\home\\NetCore\\LearnNetCoreCollection\\LearnNetCore\\LearnNetCore.Basic\\appsettings.json",
+              "RelativeToolTip": "LearnNetCore.Basic\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-12T02:48:39.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MyDependencyInjectionExtensions.cs",
+              "DocumentMoniker": "E:\\home\\NetCore\\LearnNetCoreCollection\\LearnNetCore\\LearnNetCore.Basic\\Extensions\\MyDependencyInjectionExtensions.cs",
+              "RelativeDocumentMoniker": "LearnNetCore.Basic\\Extensions\\MyDependencyInjectionExtensions.cs",
+              "ToolTip": "E:\\home\\NetCore\\LearnNetCoreCollection\\LearnNetCore\\LearnNetCore.Basic\\Extensions\\MyDependencyInjectionExtensions.cs",
+              "RelativeToolTip": "LearnNetCore.Basic\\Extensions\\MyDependencyInjectionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T09:11:36.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "MyPosition.cs",
-              "DocumentMoniker": "E:\\home\\NetCore\\LearnNetCore\\LearnNetCore.Basic\\Options\\MyPosition.cs",
+              "DocumentMoniker": "E:\\home\\NetCore\\LearnNetCoreCollection\\LearnNetCore\\LearnNetCore.Basic\\Options\\MyPosition.cs",
               "RelativeDocumentMoniker": "LearnNetCore.Basic\\Options\\MyPosition.cs",
-              "ToolTip": "E:\\home\\NetCore\\LearnNetCore\\LearnNetCore.Basic\\Options\\MyPosition.cs",
+              "ToolTip": "E:\\home\\NetCore\\LearnNetCoreCollection\\LearnNetCore\\LearnNetCore.Basic\\Options\\MyPosition.cs",
               "RelativeToolTip": "LearnNetCore.Basic\\Options\\MyPosition.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwYAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T02:50:30.855Z"
+              "WhenOpened": "2025-02-12T02:50:30.855Z",
+              "EditorCaption": ""
             }
           ]
         }

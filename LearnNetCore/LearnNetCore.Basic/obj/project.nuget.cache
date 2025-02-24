@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wJk1J5Dk1So=",
+  "dgSpecHash": "smKxbyTfmCQ=",
   "success": true,
-  "projectFilePath": "E:\\home\\NetCore\\LearnNetCore\\LearnNetCore.Basic\\LearnNetCore.Basic.csproj",
+  "projectFilePath": "E:\\home\\NetCore\\LearnNetCoreCollection\\LearnNetCore\\LearnNetCore.Basic\\LearnNetCore.Basic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chang\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.0\\microsoft.extensions.configuration.abstractions.9.0.0.nupkg.sha512",
     "C:\\Users\\chang\\.nuget\\packages\\microsoft.extensions.configuration.binder\\9.0.0\\microsoft.extensions.configuration.binder.9.0.0.nupkg.sha512",

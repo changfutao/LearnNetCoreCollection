@@ -39,6 +39,30 @@ Log.Warning("项目启动中...");
 builder.Services.AddControllers();
 
 var app = builder.Build();
+
+#region 依赖注入
+// 在应用启动时解析服务
+// 1.transient
+var myDependencyTransient= app.Services.GetRequiredService<IMyDependencyTransient>();
+Console.WriteLine($"依赖注入, Transient：{myDependencyTransient.Id.ToString("N")}");
+// 2.scoped
+using (var serviceScope = app.Services.CreateScope())
+{
+    var sevices = serviceScope.ServiceProvider;
+    var myDependencyScoped = sevices.GetRequiredService<IMyDependencyScoped>();
+    Console.WriteLine($"依赖注入, Scoped：{myDependencyScoped.Id.ToString("N")}");
+}
+
+#endregion
+
+#region 中间件
+app.Use(async (context, next) =>
+{
+    context.Response.Headers["test"] = "test";
+    await next.Invoke();
+});
+#endregion
+
 // 添加Controller中间件
 app.MapControllers();
 

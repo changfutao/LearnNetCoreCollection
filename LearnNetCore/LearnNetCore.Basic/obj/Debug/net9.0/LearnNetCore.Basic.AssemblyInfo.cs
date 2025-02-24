@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LearnNetCore.Basic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78d359c96818cb3bbe74504a1b2d8e205afc3924")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90a2506f58c4de52d278c44b27627f5600dda961")]
 [assembly: System.Reflection.AssemblyProductAttribute("LearnNetCore.Basic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LearnNetCore.Basic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -2,7 +2,9 @@
 using LearnNetCore.Basic.Options;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.DependencyModel;
 using Microsoft.Extensions.Options;
+using System.Text;
 
 namespace LearnNetCore.Basic.Controllers
 {
@@ -52,7 +54,22 @@ namespace LearnNetCore.Basic.Controllers
             return myDependency1.Id.ToString() + "\r\n" + myDependency2.Id.ToString();
         }
 
-        
+        // 注册同一服务类型的多个服务实例
+        // 如果在IOC中注入同一实现类型的多个实例类型,那么可以通过IEnumerable<实现类型>获取所有的
+        public string GetMultiTransient([FromServices] IEnumerable<IDependency> dependencies)
+        {
+            StringBuilder sb = new StringBuilder();
+            foreach (var dependency in dependencies)
+            {
+                sb.AppendLine(dependency.Id);
+            }
+            return sb.ToString();
+        }
+        // 如果在IOC中注入同一实现类型的多个实例类型,那么可以获取单个实现类型时以最后一个注入为准
+        public string GetMultiScoped([FromServices] IDependency dependency)
+        {
+            return dependency.Id;
+        }
         #endregion
 
     }
