@@ -138,5 +138,129 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "LearnNetCore.Basic.Controllers.HomeController",
+    "Method": "Switch",
+    "RelativePath": "api/Home/Switch",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LearnNetCore.Basic.Controllers.HubController",
+    "Method": "PushMsg",
+    "RelativePath": "api/Hub/PushMsg",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "content",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LearnNetCore.Basic.Controllers.ValuesController",
+    "Method": "Add",
+    "RelativePath": "api/Values/Add",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LearnNetCore.Basic.Controllers.ValuesController",
+    "Method": "Edit",
+    "RelativePath": "api/Values/Edit",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LearnNetCore.Basic.Controllers.ValuesController",
+    "Method": "Get",
+    "RelativePath": "api/Values/Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LearnNetCore.Basic.Controllers.ValuesController",
+    "Method": "GetA",
+    "RelativePath": "api/Values/GetA",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "type",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LearnNetCore.Basic.Controllers.ValuesController",
+    "Method": "GetInfo",
+    "RelativePath": "api/Values/GetInfo",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

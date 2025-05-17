@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div id="app">
+        <p>模拟推送消息：</p>
+        <div>
+            <textarea v-model="pushContent"></textarea>
+            <button @click="PushMsg">发布通告</button>
+        </div>
+
+        <span>最新的消息通知：</span>{{message}}
+        <p>接到的消息通知：</p>
+        <div>
+            {{msgs}}
+        </div>
+
+        <p>模拟实时更新数据：</p>
+        <div>
+            <span>状态1:</span><span>{{dataInfo.status1}}</span>
+            <br>
+            <span>状态2:</span><span>{{dataInfo.status2}}</span>
+        </div>
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.13/vue.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="signalr/signalr.min.js"></script>
+    <script>
+        var app = new Vue({
+            el: "#app",
+            created: function () {
+                this.connection = new signalR.HubConnectionBuilder()
+                    .withUrl("http://localhost:5000/myhub") // 
+                    .build();
+                // 后端找到ShowMsg名字,调用
+                this.connection.on("showmsg", this.ShowMsg);
+                this.connection.on("updatedata", this.UpdateData);
+                // 开启连接
+                this.connection.start();
+            },
+            data: {
+                message: "HelloVue",
+                connection: null,
+                msgs: [],
+                dataInfo: { status1: "off", status2: "off" },
+                pushContent: ""
+            },
+            methods: {
+   
+                ShowMsg: function (msgInfo) {
+                    this.message = msgInfo.title + ":" + msgInfo.msgContent;
+                    this.msgs.push(this.message);
+                },
+                PushMsg: function () {
+                    that = this;
+                    axios.get('http://localhost:5000/api/Hub/PushMsg',
+                        { params: { content: that.pushContent } })
+                        .then(function (response) {
+                            console.log(response);
+                        })
+                        .catch(function (error) {
+                            console.log(error);
+                        });
+                },
+                UpdateData: function (dataMsg) {
+                    this.dataInfo = dataMsg;
+                }
+            }
+        });
+    </script>
+</body>
+</html>

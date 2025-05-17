@@ -14,12 +14,23 @@ namespace LearnNetCore.Basic.Controllers
     {
         private readonly MyPosition _myPostion;
         private readonly MyPosition _myRealPosition;
+        private readonly IConfiguration _configuration;
 
-        public HomeController(IOptions<MyPosition> options, IOptionsSnapshot<MyPosition> realOptions)
+        public HomeController(IOptions<MyPosition> options, IOptionsSnapshot<MyPosition> realOptions, IConfiguration configuration)
         {
             _myPostion = options.Value;
             _myRealPosition = realOptions.Value;
+            _configuration = configuration;
         }
+        #region 配置
+        public string Switch()
+        {
+            var isAuto = _configuration["IsAuto"];
+            _configuration["IsAuto"] = "false";
+            return isAuto;
+        }
+        #endregion
+
         #region 选项
         /*
          * IOptions 和 IOptionsSnapshot 区别:

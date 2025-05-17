@@ -1,6 +1,9 @@
+using LearnNetCore.Basic.DbContexts;
 using LearnNetCore.Basic.Dtos;
+using LearnNetCore.Basic.Hubs;
 using LearnNetCore.Basic.Middlewares;
 using LearnNetCore.Basic.Options;
+using Microsoft.EntityFrameworkCore;
 using Serilog;
 using Serilog.Events;
 
@@ -22,17 +25,42 @@ builder.Services.AddConfig();
 
 #region Serilog
 Log.Logger = new LoggerConfiguration()
-    .MinimumLevel.Debug()
-    .MinimumLevel.Override("Microsoft", LogEventLevel.Information)
-    .WriteTo.Console()
-    .Filter.ByIncludingOnly(e => e.Level == LogEventLevel.Information)
-    .WriteTo.File("logs/Info/info.txt", rollingInterval: RollingInterval.Day)
-    .Filter.ByIncludingOnly(e => e.Level == LogEventLevel.Warning)
-    .WriteTo.File("logs/Warn/warn.txt", rollingInterval: RollingInterval.Day)
-    .Filter.ByIncludingOnly(e => e.Level == LogEventLevel.Error)
-    .WriteTo.File("logs/Error/error.txt", rollingInterval: RollingInterval.Day)
-    .CreateLogger();
-Log.Warning("项目启动中...");
+             // MinimunLevel Verbose => Debug => Information => Warning => Error => Fatal
+             // 如果没有指定,默认是Information
+             .MinimumLevel.Information()
+             .Enrich.FromLogContext()
+             .WriteTo.Console()
+             .WriteTo.Logger(lc =>
+                    lc.Filter.ByIncludingOnly(l => l.Level == Serilog.Events.LogEventLevel.Information)
+                    .WriteTo.File("logs/Info/info-.txt", rollingInterval: RollingInterval.Day)
+                    )
+             .WriteTo.Logger(lc =>
+                    lc.Filter.ByIncludingOnly(l => l.Level == Serilog.Events.LogEventLevel.Error)
+                    .WriteTo.File("logs/Error/error-.txt", rollingInterval: RollingInterval.Day)
+             )
+             .CreateLogger();
+Log.Information("项目启动中...");
+#endregion
+
+#region SignalR
+builder.Services.AddSignalR();
+#endregion
+
+#region CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("allow", policy =>
+    {
+        policy.SetIsOriginAllowed(origin => true)
+           .AllowAnyHeader()
+           .AllowAnyMethod()
+           .AllowCredentials();
+    });
+});
+#endregion
+
+#region EFCore
+builder.Services.AddDbContext<TestDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 #endregion
 
 // 注入Controller
@@ -54,7 +82,7 @@ using (var serviceScope = app.Services.CreateScope())
 }
 
 #endregion
-
+app.UseStaticFiles();
 #region 中间件
 app.Use(async (context, next) =>
 {
@@ -63,7 +91,10 @@ app.Use(async (context, next) =>
 });
 #endregion
 
+app.MapHub<MyHub>("myhub");
+app.UseCors("allow");
 // 添加Controller中间件
 app.MapControllers();
 
-app.Run();
+app.Run("http://*:5000");
+
